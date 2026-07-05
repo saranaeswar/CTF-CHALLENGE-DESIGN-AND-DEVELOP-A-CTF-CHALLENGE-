@@ -13,14 +13,15 @@ Find the flag using only browser DevTools.
 5. Find the hidden button:
 
 ```html
-<button id="openSignup" class="secondary" hidden>Open signup portal</button>
+<button id="openSignup" class="secondary" hidden>Sign up</button>
 ```
 
 6. Remove the `hidden` attribute from the button.
-7. Click **Open signup portal**.
-8. Enter any username and password in the signup overlay.
-9. Click **Sign up**.
-10. The verification portal appears and reveals the flag.
+7. The **Sign up** button appears below **Sign in**.
+8. Click **Sign up**.
+9. Enter any username and password in the signup overlay.
+10. Click **Sign up**.
+11. The verification portal appears and reveals the flag.
 
 ## Flag
 
